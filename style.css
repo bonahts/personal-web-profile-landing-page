@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+/* #contactperson {
+  font-family: 'Roboto Slab', serif;
+  font-size: small;
+  color: #dbdbdb;
+} */
+
+/* diberi padding pada section agar tampilan section tidak tertutup oleh navbar fixed */
+section {
+  padding-top: 5rem;
+}
+
+/* About */
+.name h3 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 45px;
+  font-weight: medium;
+  color: #252424;
+}
+
+.linkedin {
+  font-family: 'Roboto Slab', serif;
+  font-size: small;
+  color: #dbdbdb;
+}
+.gmail {
+  font-family: 'Roboto Slab', serif;
+  font-size: small;
+  color: #dbdbdb;
+}
+
+.linkedin {
+  font-family: 'Roboto Slab', serif;
+  font-size: small;
+  color: #dbdbdb;
+}
+footer {
+  border-top: 0px solid #dbdbdb;
+  margin-top: 100px;
+}
+footer p {
+  color: #000;
+  font-size: small;
+}
+footer a {
+  color: #000;
+}
+/* .about-layout h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  font-weight: medium;
+  color: #434a68;
+} */
+/* footer {
+  background-color: blue;
+} */
