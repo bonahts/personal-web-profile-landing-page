@@ -10,6 +10,9 @@
 
     <!-- Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS -->
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style/style.css" />
     <title>My Portflio|Bona Hutasoit</title>
@@ -47,7 +50,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center pb-5">
       <img src="projects/avatar-3.png" alt="Bona Hutasoit" width="200" class="rounded-circle" />
       <!-- <h1 class="display-5">Bona Joshua Hutasoit</h1> -->
       <h3 class="name">Bona Joshua Hutasoit</h3>
@@ -66,9 +69,9 @@
           <a href="https://drive.google.com/file/d/1af9HuiDS3hzZl8F8VHX5FvQENBAgmCxs/view?usp=sharing" class="btn btn-primary">Download CV</a>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#ffffff" fill-opacity="1" d="M0,256L0,64L288,64L288,128L576,128L576,224L864,224L864,128L1152,128L1152,32L1440,32L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z"></path>
-      </svg>
+      </svg> -->
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -84,14 +87,14 @@
           <!-- <div class="name text-center">
             <h3>Hii, I'm Bona Joshua Hutasoit</h3>
           </div> -->
-          <div class="col-lg-9 col-12">
+          <div class="col-lg-9 col-12" data-aos="fade-right" data-aos-offset="300">
             <!-- col-md-6 -->
             <p>
               A trustworthy, relliable and adaptable person who passionate working within a team setting. Sometimes able to work unsupervised, on my own. Also a team-player with high enthusiasm, high curiosity in learning new things and
               continuously improving my self. I am pro-active, a fast learning and can adapt well in the new environment. Currently seek a challenging position that will enable me to contribute and work passionately .
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, quod! Veritatis, cumque. Porro, tempore. Molestiae corporis adipisci atque eveniet vitae quasi tempore delectus, sapiente deleniti.</p>
           </div>
         </div>
@@ -218,16 +221,20 @@
           </div>
         </div>
         <div class="row text-center mb-3" id="contactperson">
-          <div class="col-4">
+          <div class="col-3">
             <h6>Linked In</h6>
             <a target="_blank" href="https://github.com/bonahts" style="text-decoration: none"><p class="linkedin text-dark">Bona Joshua Hutasoit</p> </a>
           </div>
 
-          <div class="col-4">
+          <div class="col-3">
             <h6>Gmail</h6>
             <a target="_blank" href="https://github.com/bonahts" style="text-decoration: none"><p class="gmail text-dark">bonajoshua98@gmail.com</p></a>
           </div>
-          <div class="col-4">
+          <div class="col-3">
+            <h6>Instagtram</h6>
+            <a href="https://www.instagram.com/bonahutasoit/" style="text-decoration: none"><p class="instagram text-dark">Bona Hutasoit</p></a>
+          </div>
+          <div class="col-3">
             <h6>Phone Number</h6>
             <a target="_blank" href="https://github.com/bonahts" style="text-decoration: none"><p class="phone number text-dark">081350515967</p></a>
           </div>
@@ -282,8 +289,14 @@
 
       <p>Created by <i class="bi bi-hand-thumbs-up-fill text-dark"></i> <a href="https://www.instagram.com/bonahutasoit/" class="text-white fw-bold">Bona Hutasoit</a></p>
     </footer> -->
-
     <!-- Akhir Footer -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Akhir AOS -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
